@@ -1,0 +1,56 @@
+body {
+    background-color: #1a1a1c;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.input {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    input {
+        width: 80%;
+        background-color: transparent;
+        padding: 0px 10px;
+        color: white;
+        border: 2px solid #5d5d5e;
+    }
+
+    .btn-1 {
+        background-color: transparent;
+        color: white;
+        text-wrap: nowrap;
+        width: 20%;
+        padding: 10px 10px;
+        border: 2px solid #5d5d5e;
+    }
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    color: #b6b6b6;
+    border-collapse: collapse;
+    .image {
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+    .inc {
+        color: green;
+    }
+
+    .dec {
+        color: red;
+    }
+
+    tbody tr td{
+        border-bottom: 1px solid #49494b;
+    }
+}
